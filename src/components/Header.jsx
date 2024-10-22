@@ -4,14 +4,14 @@ const Header = () => {
   return (
     <header className="fixed w-full bg-white shadow-md">
       <div className="container mx-auto px-6 py-4 flex justify-between items-center">
-        <a href="#" className="text-3xl font-bold">Smith</a>
-        <nav className={`"block" lg:flex lg:items-center`}>
+        <a href="#" className="text-3xl font-bold">Wesley</a>
+        <nav className="lg:flex md:items-center hidden">
           <ul className="lg:flex lg:space-x-4">
-            <li><a href="#home" className="hover:text-theme">Acceuil</a></li>
-            <li><a href="#portfolio" className="hover:text-theme">Portfolio</a></li>
-            <li><a href="#skills" className="hover:text-theme">Competence</a></li>
-            <li><a href="#timeline" className="hover:text-theme">Blog</a></li>
-            <li><a href="#contact" className="hover:text-theme">Contact</a></li>
+            <li><a href="#home" className="hover:text-blue-600">Acceuil</a></li>
+            <li><a href="#portfolio" className="hover:text-blue-600">Portfolio</a></li>
+            <li><a href="#skills" className="hover:text-blue-600">Competence</a></li>
+            <li><a href="#timeline" className="hover:text-blue-600">Blog</a></li>
+            <li><a href="#contact" className="hover:text-blue-600">Contact</a></li>
           </ul>
         </nav>
         <button

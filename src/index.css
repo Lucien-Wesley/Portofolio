@@ -1,3 +1,12 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+.section {
+  @apply px-4 lg:px-8 mx-auto max-w-6xl pb-10 lg:pb-24;
+}
+
+.strong {
+  @apply font-extrabold text-6xl;
+}

@@ -1,12 +1,13 @@
 // eslint-disable-next-line no-unused-vars
 import React from 'react'
 import Header from "./components/Header"
+import Hero from './components/Hero'
 const App = () => {
   return (
     <div>
         <Header />
         <main>
-            
+          <Hero/>
         </main>
     </div>
   )
