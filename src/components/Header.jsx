@@ -2,10 +2,10 @@
 const Header = () => {
 
   return (
-    <header className="fixed w-full bg-white shadow-md">
+    <header className="fixed w-full bg-white shadow-md z-10">
       <div className="container mx-auto px-6 py-4 flex justify-between items-center">
         <a href="#" className="text-3xl font-bold">Wesley</a>
-        <nav className="lg:flex md:items-center hidden">
+        <nav className="hidden lg:flex md:items-center">
           <ul className="lg:flex lg:space-x-4">
             <li><a href="#home" className="hover:text-blue-600">Acceuil</a></li>
             <li><a href="#portfolio" className="hover:text-blue-600">Portfolio</a></li>

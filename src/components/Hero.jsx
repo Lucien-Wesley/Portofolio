@@ -1,6 +1,6 @@
 const Hero = () => {
   return (
-    <section className="bg-gray-50 pt-20 lg:pt-32" id="home">
+    <section className="bg-gray-200 pt-20 lg:pt-32" id="home">
       <div className="container section items-center lg:grid lg:grid-cols-2 lg:gap-10">
         <div className="">
             <p className="text-blue-600 text-lg font-semibold mb-4">Wesley KAMATHE</p>
@@ -22,8 +22,8 @@ const Hero = () => {
               </li>
             </ul>
         </div>
-        <figure className="w-full lg:max-w-[320px] lg:ml-auto mx-auto rounded-lg bg-gradient-to-b items-center from-gray-100 to-blue-600">
-          <img src="/images/portrait.png" width={640} height={840} alt="" className="w-full" />
+        <figure className="w-full lg:max-w-[320px] lg:ml-auto mx-auto rounded-lg bg-gradient-to-b items-center from-gray-100 to-blue-600 inline-block" style={{transform: 'rotate(-10deg)'}}>
+          <img src="/images/portrait.png" width={640} height={840} alt="" className="w-full" style={{transform: 'rotate(20deg)'}} />
         </figure>
       </div>
     </section>
